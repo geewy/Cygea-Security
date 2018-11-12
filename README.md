@@ -14,9 +14,11 @@ This code only requiere Android Studio and an emulator.
 
 The pictures used have to be changed. The ip addresses also has to be settled so that you application will be able to join your server and database.
 
+The stop of an aplication's download to analyse it or before its installation is not pushed here.
+
 ### Todo
 
 * Comment properly the code
-* Stop the download of an application to analyse it or before its installation
+* 
 
 
