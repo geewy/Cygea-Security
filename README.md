@@ -19,6 +19,6 @@ The stop of an aplication's download to analyse it or before its installation is
 ### Todo
 
 * Comment properly the code
-* 
+
 
 
