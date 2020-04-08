@@ -180,7 +180,7 @@ public class Application extends ListActivity
 
             HttpClient httpClient = new DefaultHttpClient();
             try {
-                HttpPost httpPost = new HttpPost("http://192.168.0.20:8000/search.py");
+                HttpPost httpPost = new HttpPost("http://server:port/search.py");
 
                 List<NameValuePair> pairList = new ArrayList<NameValuePair>();
                 pairList.add(new BasicNameValuePair("package_Name", params[0]));
@@ -340,7 +340,7 @@ public class Application extends ListActivity
 
             HttpClient httpClient = new DefaultHttpClient();
             try {
-                HttpPost httpPost = new HttpPost("http://192.168.0.20:8000/analyze.py");
+                HttpPost httpPost = new HttpPost("http://server:port/analyze.py");
 
                 List<NameValuePair> pairList = new ArrayList<NameValuePair>();
                 pairList.add(new BasicNameValuePair("package_Name", params[0]));
@@ -432,7 +432,7 @@ public class Application extends ListActivity
             String path= params[0];
 
             String filename = path.substring(path.lastIndexOf("/")+1);
-            String url = "http://192.168.0.20:8000/upload.py";
+            String url = "http://server:port/upload.py";
             File file = new File(path);
 
             try{
@@ -474,7 +474,7 @@ public class Application extends ListActivity
 
             HttpClient httpClient = new DefaultHttpClient();
             try {
-                HttpPost httpPost = new HttpPost("http://192.168.0.20:8000/search.py");
+                HttpPost httpPost = new HttpPost("http://server:port/search.py");
 
                 List<NameValuePair> pairList = new ArrayList<NameValuePair>();
                 pairList.add(new BasicNameValuePair("package_Name", params[0]));
@@ -571,7 +571,7 @@ public class Application extends ListActivity
 
             HttpClient httpClient = new DefaultHttpClient();
             try {
-                HttpPost httpPost = new HttpPost("http://192.168.0.20:8000/analyze.py");
+                HttpPost httpPost = new HttpPost("http://server:port/analyze.py");
 
                 List<NameValuePair> pairList = new ArrayList<NameValuePair>();
                 pairList.add(new BasicNameValuePair("package_Name", params[0]));
